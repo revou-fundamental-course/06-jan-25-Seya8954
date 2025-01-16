@@ -1,14 +1,123 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
+    <!--meta-->
     <meta charset="UTF-8">
-    <meta name "viewport" content="width=device-width, intial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--title-->
+    <title>Honkai Impact 3rd</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+
+    <!--background-->
+    <style type="text/css">
+        body{
+            background-color: rgb(185, 183, 19);
+            background-position: center;
+            background-size: cover;
+            min-height: 1000px;
+        }
+    </style>
 </head>
 
 <body>
+    <!--header & navbar-->
+    <header id="main header">
+        <div class="navbar">
+            <!--navbar-->
+            <img src="logo.jpg" alt="logo" class="logo">
+                
+            <ul class="menu">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Character</a></li>
+                <li><a href="#">Scene</a></li>
+                <li><a href="#">Message Us</a></li>
+            </ul>
+        </div>
 
+    </header>
+    
+    <hr/>
+
+</body>
+<!--main content-->
+<main>
+    <!--home page-->
+    <section>
+        <!--Title-->
+        <header id="home page">
+            <div>
+            <span id="user greeting">User</span><h1> Welcome to our website</h1>
+            <p>In here you can find information about Honkai Impact 3rd</p>
+            
+            <button id="change greeting">Change Greeting</button>
+            </div>
+        </header>
+
+        <div class="Latar">
+            <img src="Latar.jpg" alt="Latar" class="Latar">
+        </div>
+
+    </section>
+
+    <!--character-->
+    <section>
+        <!--title-->
+        <h1>Character</h1>
+        <div class="character">
+            <div class="character1">
+                <img src="Coralie.jpg" alt="Coralie" class="Coralie">
+                <h2>Character 1</h2>
+                <p>Character 1 is a character in Honkai Impact 3rd</p>
+                </div>
+    </section>
+
+    <!--scene-->
+    <section>
+        <!--title-->
+        <h1></h1>
+        </section>
+
+        <!--message us-->
+        <section>
+            <!--title-->
+            <h1>Message Us</h1>
+            <form action="">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <button type="button" id="submit-btn">Submit</button>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email" required>
+                    <button type="button" id="submit-btn">Submit</button>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="button" id="submit-btn">Send</button>
+                </div>
+            </form>
+
+            <!--result form-->
+            <div id="result form"></div>
+</section>
+</main>
+
+
+    <!--footer-->
+    <footer>
+        <p>Created by: fan</p>
+    </footer>
+
+    <!--JS-->
+    <script scr="js/script.js"></script>
 </body>
 
 </html>
