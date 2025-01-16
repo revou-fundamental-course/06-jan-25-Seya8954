@@ -87,3 +87,13 @@ p {
     text-align: center;
     color: #fff;
 }
+
+/*characters*/
+.character {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    flex-direction: row;
+}
